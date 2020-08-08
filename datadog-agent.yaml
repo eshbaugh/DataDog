@@ -7,7 +7,7 @@ metadata:
   labels: {}
 type: Opaque
 data:
-  api-key: -----------> REDRACTED <-------------
+  api-key: --------------> REDACTED <----------------------------
 
 # APP Key
 ---
@@ -539,8 +539,8 @@ spec:
       tolerations:
       affinity: {}
       serviceAccountName: "datadog-agent"
-      nodeSelector:
-        kubernetes.io/os: linux
+#      nodeSelector:
+#        kubernetes.io/os: linux
   updateStrategy:
     rollingUpdate:
       maxUnavailable: 10%
